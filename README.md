@@ -21,13 +21,23 @@ A project submitted in partial fulfilment of the  requirements for the bachelor'
 
 
 # Acknowledgments
-We would like to express our gratitude to ***Prof. Shahenda Sarhan***, our accomplished supervisor, for her extensive guidance, support, and constructive feedback throughout our graduation project.
+We would like to express our gratitude To 
+> _*Prof. Shahenda Sarhan*_
+
+our accomplished supervisor, for her extensive guidance, support, and constructive feedback throughout our graduation project.
 
 We are deeply grateful for her unwavering encouragement and expertise, which have been essential in making this project a success.
 
-We also wish to extend our heartfelt thanks to ***Eng. Mahmoud Abbas*** for his exceptional contribution, insightful feedback, and diligent efforts in providing us with the necessary resources and assistance for our research.
+We also wish to extend our heartfelt thanks To 
+> _*Eng. Mahmoud Abbas*_ 
 
-Finally, we would like to express our gratitude to the ***Faculty of Computer and Information Sciences*** for providing us with a conductive learning environment and equipping us with the necessary knowledge and skills to embark on a successful career in our field of study. We are honored to have been a part of such a prestigious institution and look forward to contributing to the field of future. **And, for those students who will read this in the next years, we wish it will help you in your projects. We had a great time in our 4 years, we learned many things, and now it’s your time**.
+for his exceptional contribution, insightful feedback, and diligent efforts in providing us with the necessary resources and assistance for our research.
+
+Finally, we would like to express our gratitude to The 
+> _*Faculty of Computer and Information Sciences*_ 
+
+for providing us with a conductive learning environment and equipping us with the necessary knowledge and skills to embark on a successful career in our field of study. We are honored to have been a part of such a prestigious institution and look forward to contributing to the field of future. 
+> _**And, for those students who will read this in the next years, we wish it will help you in your projects. We had a great time in our 4 years, we learned many things, and now it’s your time**_.
 
 
 
@@ -332,23 +342,23 @@ This design direction ensures that the user interface is not only **aestheticall
 - Special thanks to:
 
    I. Our Team Members for their collaboration and dedication to achieving project goals.
-  * [Amr Khaled](https://github.com/GOAT-AK) (AI Engineer)
+  > _*Amr Khaled (AI Engineer)*_
 
-  * [Sobhy Al-Sayed](https://github.com/sobhysayed) (Backend Developer)
+  > _*Sobhy Al-Sayed (Backend Developer)*_
 
-  * [Amr Mohamed](https://github.com/AmrMohamed16) (Business Analyst)
+  > _*Amr Mohamed (Business Analyst)*_
 
-  * [Shady Ali](https://github.com/shaadyalii) (Business Analyst)
+  > _*Shady Ali (Business Analyst)*_
 
-  * [Asem Ashraf](https://github.com/Asem-Ashraf-git) (Backend Developer)
+  > _*Asem Ashraf (Backend Developer)*_
 
-  * [Asem Ayman](https://github.com/Assem-44) (UI/UX Designer)
+  > _*Asem Ayman (UI/UX Designer)*_
 
-  * [Seif Gamal](https://github.com/seifgamaal) (UI/UX Designer)
+  > _*Seif Gamal (UI/UX Designer)*_
 
-  * [Adel Mohamed](https://github.com/adelmohamed556) (Flutter Developer)
+  > _*Adel Mohamed (Flutter Developer)*_
 
-  * [Hager Samy](https://github.com/Hagersami321) (Backend Developer)
+  > _*Hager Samy (Backend Developer)*_
   
 - Your support and encouragement were instrumental in the successful completion of this project.
 
