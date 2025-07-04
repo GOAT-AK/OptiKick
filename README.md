@@ -53,8 +53,13 @@ Finally, we would like to express our gratitude to the ***Faculty of Computer an
 
 
 
-# OverView
-This project focuses on analyzing social media data to provide actionable insights for businesses, influencers, and marketers. By leveraging interactive dashboards, the project helps optimize social media strategies, drive audience engagement, and enable data-driven decision-making. This initiative was developed as part of the DEPI Data Engineering Track, ranking in the top 20 participating teams.
+# 📋 OverView 
+
+> _Ever worried if players are really getting the care they need to stay safe and perform their best?_ 
+
+In the high-stakes world of competitive sports, even the smallest signs of fatigue, stress, or abnormality can lead to major injuries — or worse. Inspired by real-life incidents involving athletes like Christian Eriksen and Ahmed Refaat, our project aims to provide a smarter, safer way to monitor athletes in real time.
+
+This application combines **biometric tracking**, **AI-based injury prediction**, and **personalized training insights** to support athletes, coaches, and doctors in making proactive, data-driven decisions. Through wearable sensors, a powerful AI model, and a seamless mobile interface, we empower sports teams to detect early signs of physical overload, classify player states, and adapt training plans — all in real time.
 
 
 
@@ -101,14 +106,14 @@ As shown in the table below, our system uniquely combines personalized training 
 
 
 # Tech_Stack
-- 🤖 **Artificial Intelligence (AI)**
+- ### 🤖 Artificial Intelligence (AI)
     - **Language:** Python 
         - `scikit-learn`: machine learning algorithms and model training
         - `pandas`, `numpy`: data manipulation and analysis
         - `matplotlib`, `seaborn`: data visualization
     - **Environment:** Jupyter Notebook
  
-- 💻 **Backend**
+- ### 💻 Backend
     - **Framework:** Laravel 12.x
     - **Authentication:** Laravel Sanctum
     - **Database:** MySQL
@@ -118,7 +123,7 @@ As shown in the table below, our system uniquely combines personalized training 
     - **Code Quality:** Laravel Pint
     - **API Testing:** Postman
     
-- 📱 **Mobile App**
+- ### 📱 Mobile App
     - **Framework:** Flutter
     - **UI Design:** Figma  
 
@@ -126,36 +131,111 @@ As shown in the table below, our system uniquely combines personalized training 
 
 # Tools
 
-- **Development & Code Management**
+- ### Development & Code Management
     - **Visual Studio Code:** code editor for backend and AI 
     - **Android Studio:**  code editor for flutter
     - **Git & GitHub:** version control and team collaboration
       
-- **AI**
+- ### AI
     - **Jupyter Notebook:** model training and experiments
     - **Railway:** to host and expose the AI model via API
     
-- **Backend Utilities**
+- ### Backend Utilities
     - **Postman:** for testing API endpoints
     - **phpMyAdmin:** for MySQL database management
-    - **Pusher:** to handle real-time events between server and mobile app
+    - **Pusher:** to ha# ndle real-time events between server and mobile app
     
-- **Design & Prototyping**
+- ### Design & Prototyping
     - **Figma:** UI/UX prototyping and design collaboration
     
-- **Project Management**
+- ### Project Management
     - **Notion:** task management and progress tracking
     - **Microsoft Teams & WhatsApp:** team communication
     - **Google Drive:** Document and reporting sharing  
 
 
 
-# Requirements
+# ⚙️ Requirements
+To run the full project (AI model, Laravel backend, and Flutter mobile app), make sure your development environment includes the following:
+
+
+
+### 🧩 General Requirements
+
+- **Python 3.8+** – for AI and model training  
+- **PHP 8.2 or higher** – for Laravel backend  
+- **Composer** – PHP dependency manager  
+- **Node.js & NPM** – for Laravel frontend assets  
+- **MySQL** – for the database  
+- **Flutter SDK 3.x+** – for mobile app development  
+- **Dart SDK** – included with Flutter  
+- **Android Studio** – for emulating mobile apps  
+- **Git** – for version control (optional but recommended)  
+
+<hr>
+
+### ✅ Python (AI)
+
+Install the required libraries:
+```bash
+pip install scikit-learn pandas numpy matplotlib seaborn joblib fastapi uvicorn
+```
+
+<hr>
+
+### ✅ Laravel (Backend)
+
+Set up the Laravel backend:
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
+```
+
+<hr>
+
+### ✅ Flutter (Mobile App)
+
+Install packages and run the app:
+```bash
+flutter pub get
+flutter run
+```
+
+**Note:**
+- Make sure the app is connected to the correct API URL (local or cloud)  
+- On Android, ensure the following permission is added in `AndroidManifest.xml`:
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+```
 
 
 
 # UI
 
+### 🎨 UI Identity & Design Inspiration
+
+As part of building a modern and intuitive experience, we designed a visual identity that reflects both **our mission** and the **athletic context** of our application.
+
+### 🏃 Logo Meaning
+
+The logo depicts a dynamic athlete running toward a football — representing **movement, agility, and precision**. The stylized lines behind the figure convey **speed and biometric motion tracking**, aligning directly with our system’s core:  
+> _AI-powered performance tracking and injury prevention._
+
+This symbol reflects not just sport, but **smart sport** — where every movement is monitored, analyzed, and optimized through intelligent insights.
+
+### 🌱 Color Choice & Background
+
+We chose a **deep green gradient** as the background to mimic the **natural texture and tone of a football field**, instantly connecting the viewer to the athletic environment. This color also conveys:
+- **Health & vitality** (green is often associated with wellness)  
+- **Focus & professionalism**, with the darker tone ensuring contrast and clarity for data and charts  
+- A calm, **non-distracting interface** that keeps athletes and coaches focused on what matters
+
+This design direction ensures that the user interface is not only **aesthetically pleasing**, but also **purpose-driven** — reinforcing the product's identity at every level.
+
+> 💡 *[View the full design and screens on Figma](https://www.figma.com/design/sq3o2b8NXGnrwC94z65k7h/UI_G-App?node-id=640-2&t=HFHRB4sW2Knr8qiO-0)*  
 
 
 
@@ -166,7 +246,7 @@ As shown in the table below, our system uniquely combines personalized training 
 
 # AI
 
-- **AI Notebooks**
+- ### 📘 AI Notebooks
   
    01. `Graduation_Check.ipynb`: *Data Validation & Exploration*
     
@@ -176,7 +256,7 @@ As shown in the table below, our system uniquely combines personalized training 
         - Visualizing data using `matplotlib` and `seaborn`
         - Removing Outliers
 
-- **Goal:** Ensure clean & well-understood data before model training.
+- #### Goal: Ensure clean & well-understood data before model training.
  
   02. `Graduation_All.ipynb`: *Model Benchmarking & Optimization*
 
@@ -185,7 +265,7 @@ As shown in the table below, our system uniquely combines personalized training 
         - Optimizes hyperparameters via grid search
         - Evaluates models using accuracy, precision, recall, F1-score and ROC AUC
 
-- **Goal:** Select the best performing model for real-world deployment      
+- #### Goal: Select the best performing model for real-world deployment      
 
   03. `Graduation_Main.ipynb`: *Final Training & Export*
 
@@ -193,15 +273,15 @@ As shown in the table below, our system uniquely combines personalized training 
         - Trains the chosen model on the full dataset
         - Saves both model and scaler as .pkl files
     
-- **Goal:** Create production-ready model
+- #### Goal: Create production-ready model
   
 <hr>
 
-- **API Deployment**
+- ### 🚀 API Deployment
 
   We deployed the trained model using FastAPI, allowing real-time predictions from any interface (mobile, web, etc.).
 
- - **Local Setup**
+ - #### 🔧 Local Setup
 
     To run the API locally:
 
@@ -215,15 +295,17 @@ As shown in the table below, our system uniquely combines personalized training 
             ```bash
              uvicorn server:app --reload
 
-     04. Open your browser and go to: http://localhost:8000/docs - to interact with the API via Swagger UI
+     04. Open your browser and go to:
+
+         >  *[Localhost](http://localhost:8000/docs)*  - to interact with the API via Swagger UI
  
 
            
- - **Cloud Deployment (Live API)**
+ - #### ☁️ Cloud Deployment (Live API)
 
     No installation needed — test the API instantly via our live Railway deployment:
 
-    01. Live API: https://fastapi-predictorg-production.up.railway.app
+    01.  >  *[Our Live API](https://fastapi-predictorg-production.up.railway.app)*  
 
       You can input your biometric data directly through the web interface and get instant classification results
        
