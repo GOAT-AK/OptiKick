@@ -9,9 +9,9 @@ A project submitted in partial fulfilment of the  requirements for the bachelor'
 * [Problem](#Problem)
 * [Solution](#Solution)
 * [why_It's_different](#why_It's_different)
-* [How_It_Works](#How_It_Works)
 * [Tech_Stack](#Tech_Stack)
-* [Tools](#Tools)  
+* [Tools](#Tools)
+* [Requirements](#Requirements)  
 * [UI](#UI)  
 * [Backend](#Backend)  
 * [AI](#AI)
@@ -145,9 +145,11 @@ As shown in the table below, our system uniquely combines personalized training 
 - **Project Management**
     - **Notion:** task management and progress tracking
     - **Microsoft Teams & WhatsApp:** team communication
-    - **Google Drive:** document and reporting sharing  
+    - **Google Drive:** Document and reporting sharing  
 
 
+
+# Requirements
 
 
 
