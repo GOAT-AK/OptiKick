@@ -166,6 +166,13 @@ As shown in the table below, our system uniquely combines personalized training 
 
 # AI
 
+- **AI Notebooks**
+    - `Graduation_Check.ipynb`: Data Validation & Exploration
+    
+        This notebook performs Exploratory Data Analysis (EDA) to ensure data readiness for training. Key tasks include:  
+        - Detecting missing or inconsistent values
+        - Exploring feature distributions
+        - Visualizing data using `matplotlib` and `seaborn`
 
 
 
