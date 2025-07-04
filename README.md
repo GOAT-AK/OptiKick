@@ -167,12 +167,67 @@ As shown in the table below, our system uniquely combines personalized training 
 # AI
 
 - **AI Notebooks**
-    - `Graduation_Check.ipynb`: Data Validation & Exploration
+  
+   01. `Graduation_Check.ipynb`: *Data Validation & Exploration*
     
         This notebook performs Exploratory Data Analysis (EDA) to ensure data readiness for training. Key tasks include:  
         - Detecting missing or inconsistent values
         - Exploring feature distributions
         - Visualizing data using `matplotlib` and `seaborn`
+        - Removing Outliers
+
+- **Goal:** Ensure clean & well-understood data before model training.
+ 
+  02. `Graduation_All.ipynb`: *Model Benchmarking & Optimization*
+
+       In this notebook, we compare six different ML models using `GridSearchCV` to get the best prameters for each one, `k-fold` to ensuring there's no overfitting, and evalueted those 6 models by **5 metrics** and `confussion matrix` identify the best one. Key highlights:
+        - Trains multiple models (e.g., Random Forest, SVM, etc.)
+        - Optimizes hyperparameters via grid search
+        - Evaluates models using accuracy, precision, recall, F1-score and ROC AUC
+
+- **Goal:** Select the best-performing model for real-world deployment.      
+
+  03. `Graduation_Main.ipynb`: *Final Training & Export*
+
+       Here we train the final selected model using the optimal parameters and export it for use in an API:
+        - Trains the chosen model on the full dataset
+        - Saves both model and scaler as .pkl files
+    
+- **Goal:** Create production-ready model and preprocessing tools.
+  
+<hr>
+
+- **API Deployment**
+
+  We deployed the trained model using FastAPI, allowing real-time predictions from any interface (mobile, web, etc.).
+
+ - **Local Setup**
+
+    To run the API locally:
+
+     01. Navigate to the API folder
+     02. Make sure the following files are present:
+         - `ran_model.pkl` – trained model
+         - `scalar.pkl` – scaler for preprocessing
+         - `server.py` – FastAPI app script
+
+     03. Run the server using:
+            ```bash
+             uvicorn server:app --reload
+
+     04. Open your browser and go to: http://localhost:8000/docs - to interact with the API via Swagger UI
+ 
+
+           
+ - **Cloud Deployment (Live API)**
+
+    No installation needed — test the API instantly via our live Railway deployment:
+
+    01. Live API: https://fastapi-predictorg-production.up.railway.app
+
+      You can input your biometric data directly through the web interface and get instant classification results
+       
+
 
 
 
