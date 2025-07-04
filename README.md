@@ -76,32 +76,32 @@ This application combines **biometric tracking**, **AI-based injury prediction**
 # Problem
 Athletes today face numerous challenges that can significantly impact their performance, health, and career longevity. Our project addresses the following key problems:
 
-**01. Intense Physical and Mental Demands:** Athletes constantly push their bodies to the limit, which can lead to fatigue, burnout, and decreased performance without proper support and monitoring.
+01. **Intense Physical and Mental Demands:** Athletes constantly push their bodies to the limit, which can lead to fatigue, burnout, and decreased performance without proper support and monitoring.
 
-**02. Gaps in Health Monitoring:** Traditional health assessments are periodic and reactive, missing early signs of serious conditions like cardiac arrhythmias or fatigue-related injuries.
+02. **Gaps in Health Monitoring:** Traditional health assessments are periodic and reactive, missing early signs of serious conditions like cardiac arrhythmias or fatigue-related injuries.
 
-**03. Lack of an Integrated System:** There is no unified platform that combines biometric monitoring, training feedback, and real-time risk detection in a seamless, user-friendly way.
+03. **Lack of an Integrated System:** There is no unified platform that combines biometric monitoring, training feedback, and real-time risk detection in a seamless, user-friendly way.
 
-**04. Fragmented Data Sources:** Athletes and coaches often rely on multiple disconnected tools and wearables, leading to incomplete or inconsistent data analysis.
+04. **Fragmented Data Sources:** Athletes and coaches often rely on multiple disconnected tools and wearables, leading to incomplete or inconsistent data analysis.
 
 **05. Increased Risk of Injury or Underperformance:** Without continuous monitoring and smart recommendations, athletes face higher risks of preventable injuries or suboptimal performance.
 
-**06. Need for Personalized Training:** Most training programs are not tailored to the unique physical responses, recovery rates, and health status of individual athletes.
+06. **Need for Personalized Training:** Most training programs are not tailored to the unique physical responses, recovery rates, and health status of individual athletes.
 
 
 
 # Solution
 Our application offers an AI-powered, athlete-centric platform that addresses key gaps in modern sports performance and safety. Here's how we solve the problem:
 
-**01. Performance Tracking:** Biometric monitoring allows athletes and coaches to track performance metrics such as heart rate variability (HRV), exertion levels, and recovery status — enabling smarter decisions during training and matches.
+01. **Performance Tracking:** Biometric monitoring allows athletes and coaches to track performance metrics such as heart rate variability (HRV), exertion levels, and recovery status — enabling smarter decisions during training and matches.
 
-**02. Personalized Training:** Using machine learning models, the app tailors training recommendations based on each athlete's unique physiological data, helping to maximize output while reducing overload and fatigue.
+02. **Personalized Training:** Using machine learning models, the app tailors training recommendations based on each athlete's unique physiological data, helping to maximize output while reducing overload and fatigue.
 
-**03. Injury Prevention:** By detecting anomalies in biometric signals early, the system can proactively alert coaches and medical staff to potential risks, helping to avoid serious incidents like those involving Christian Eriksen or Ahmed Refaat.
+03. **Injury Prevention:** By detecting anomalies in biometric signals early, the system can proactively alert coaches and medical staff to potential risks, helping to avoid serious incidents like those involving Christian Eriksen or Ahmed Refaat.
 
-**04. Player Classification:** classify players into 4 categories `Optimal`, `At Risk`, `Recovering`, or `Underperforming` based on physical `readiness`, `Injury risk`, and `fatigue score` — supporting team strategy, substitution decisions, and long-term development plans.
+04. **Player Classification:** classify players into 4 categories `Optimal`, `At Risk`, `Recovering`, or `Underperforming` based on physical `readiness`, `Injury risk`, and `fatigue score` — supporting team strategy, substitution decisions, and long-term development plans.
 
-**05. Intuitive Interface:** Built with Flutter and designed in Figma, the user interface is clean, responsive, and easy to navigate — whether you’re a coach, doctor, or athlete — making complex data instantly understandable and actionable.
+05. **Intuitive Interface:** Built with Flutter and designed in Figma, the user interface is clean, responsive, and easy to navigate — whether you’re a coach, doctor, or athlete — making complex data instantly understandable and actionable.
 
 
 
