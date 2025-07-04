@@ -63,7 +63,7 @@ for providing us with a conductive learning environment and equipping us with th
 
 
 
-# 📋 OverView 
+# OverView 
 
 > _Ever worried if players are really getting the care they need to stay safe and perform their best?_ 
 
@@ -165,7 +165,7 @@ As shown in the table below, our system uniquely combines personalized training 
 
 
 
-# ⚙️ Requirements
+#  Requirements
 To run the full project (AI model, Laravel backend, and Flutter mobile app), make sure your development environment includes the following:
 
 
