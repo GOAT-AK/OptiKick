@@ -1,5 +1,5 @@
 # OptiKick
-A project submitted in partial fulfilment of the  requirements for the bachelor's degree of Computer Science at Mansoura University. Our application is designed to support athletes by integrating biometric monitoring, AI-driven recommendations, aiming to prevent tragic incidents like those involving Christian Eriksen and Ahmed Refaat 
+A project submitted in partial fulfilment of the  requirements for the bachelor's degree of Computer Science at Mansoura University. Our application is designed to support athletes by  integrating biometric monitoring, AI-driven recommendations, aiming to prevent tragic incidents like those involving Christian Eriksen and Ahmed Refaat 
 
 # Table of Contents  
 
