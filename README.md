@@ -15,7 +15,8 @@ A project submitted in partial fulfilment of the  requirements for the bachelor'
 * [UI](#UI)  
 * [Backend](#Backend)  
 * [AI](#AI)
-* [Future_Work](#Future_Work) 
+* [Future_Work](#Future_Work)
+* [Credits](#Credits) 
 
 
 # Acknowledgments
@@ -91,7 +92,10 @@ Our application offers an AI-powered, athlete-centric platform that addresses ke
 # why_It's_different
 Unlike existing sports performance tools such as WHOOP, Polar Team Pro, Orreco, and Catapult — which each offer only some isolated features — our solution provides an all-in-one intelligent platform.
 
-As shown in the Compare below, our system uniquely combines personalized training programs, AI-based player classification, intuitive design, injury risk prediction, and performance tracking into a single, seamless experience. This integration empowers coaches, doctors, and athletes to make smarter, safer, and faster decisions backed by real-time data and AI insights.
+As shown in the table below, our system uniquely combines personalized training programs, AI-based player classification, intuitive design, injury risk prediction, and performance tracking into a single, seamless experience. This integration empowers coaches, doctors, and athletes to make smarter, safer, and faster decisions backed by real-time data and AI insights.
+
+
+![Image](https://github.com/user-attachments/assets/8461a2f2-3b94-4b3b-a2a7-9936253db5b3)
 
 
 
@@ -148,56 +152,57 @@ As shown in the Compare below, our system uniquely combines personalized trainin
 
 
 # UI
-- Developed dynamic dashboards with insights for companies and influencers
-- Optimized database schema for efficient querying
-- Conducted extensive EDA to reveal sentiment patterns
-- Analyzed data across 5 social media platforms
+
 
 
 
 # Backend
-- Best cities for targeted content marketing
-- Best platforms for higher reach and positive feedback
+
 
 
 
 # AI
-- Target high-engagement platforms (e.g., Snapchat, TikTok)
-- Engage influencers from Tokyo, New York, and Cairo
-- Launch campaigns from May to July
+
 
 
  
+
+
+
+
 # Future_Work
-- This project was made possible through the support and guidance of the [Digital Egypt Pioneers Initiative (DEPI)](https://www.linkedin.com/company/digital-egypt-pioneers-initiative-depi/posts/?feedView=all) and the collaborative efforts of our team and mentor.
+- **Real-Time Biometric Tracking:** Integrating advanced wearables for live performance insights and proactive decision-making.
+- **Cloud-Based Collaboration:** Enabling seamless data sharing between coaches, doctors, and athletes.
+- **Multi-Sport Expansion:** Adapting OptiKick’s AI for different sports and their unique demands.
+- **Advanced Performance Statistics:** Incorporating detailed player performance metrics (e.g., assists, big chances created & missed, shots, crosses). These statistics will offer deeper performance insights and support the development of more personalized and effective training plans.
+- **AI Video Analysis:** Assessing player movements to detect inefficiencies and potential injuries.
+- **Dynamic Article Updates:** Ensuring that articles and medical content within the app are dynamically updated on a regular basis to reflect the latest research and best practices.
+
+
+
+# Credits
 - Special thanks to:
 
-   I. DEPI Organizers for providing a structured learning track and valuable resources.
+   I. Our Team Members for their collaboration and dedication to achieving project goals.
+  * [Amr Khaled](https://github.com/GOAT-AK) (AI Engineer)
 
-   II. Our Mentor [Mohamed Abdelmwla](https://www.linkedin.com/in/mohamed-abdelmawla-85219b56/) for his continuous guidance throughout the Data Engineering track.
+  * [Sobhy Al-Sayed](https://github.com/sobhysayed) (Backend Developer)
 
-   III. Our Team Members for their collaboration and dedication to achieving project goals.
-  -  [Amr Khaled](https://www.linkedin.com/in/amr-khaled03/)
-  
-  -  [Mahmoud Osama](https://www.linkedin.com/in/mahmoud-osama-78aaab260/)
-   
-  -  [Ashraf Morgan](https://www.linkedin.com/in/ashrf-morgan-2a6909254/)
-  
-  -  [Ammar Yasser](https://www.linkedin.com/in/ammar-yasser-b99338325/)
-  
-  -  [Ibrahim Hegazi](https://www.linkedin.com/in/ibrahim-hegazi-9ba3a5269/)
-  
-  -  [Yousef Alsebaey](https://www.linkedin.com/in/yousef-alsebaey-741ba9114/)
+  * [Amr Mohamed](https://github.com/AmrMohamed16) (Business Analyst)
+
+  * [Shady Ali](https://github.com/shaadyalii) (Business Analyst)
+
+  * [Asem Ashraf](https://github.com/Asem-Ashraf-git) (Backend Developer)
+
+  * [Asem Ayman](https://github.com/Assem-44) (UI/UX Designer)
+
+  * [Seif Gamal](https://github.com/seifgamaal) (UI/UX Designer)
+
+  * [Adel Mohamed]() (Flutter Developer)
+
+  * [Hager Samy]() (Backend Developer)
   
 - Your support and encouragement were instrumental in the successful completion of this project.
-
-
-
-# Future_Work
-- Acquire datasets with follow/unfollow dates and engagement times
-- Incorporate AI to optimize posting times for better engagement
-
-
 
 
 
