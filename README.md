@@ -193,7 +193,7 @@ As shown in the table below, our system uniquely combines personalized training 
         - Trains the chosen model on the full dataset
         - Saves both model and scaler as .pkl files
     
-- **Goal:** Create production-ready model and preprocessing tools.
+- **Goal:** Create production-ready model
   
 <hr>
 
