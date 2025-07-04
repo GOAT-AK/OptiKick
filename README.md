@@ -15,6 +15,7 @@ A project submitted in partial fulfilment of the  requirements for the bachelor'
 * [UI](#UI)  
 * [Backend](#Backend)  
 * [AI](#AI)
+* [Flutter](#Flutter)
 * [Future_Work](#Future_Work)
 * [Credits](#Credits) 
 
@@ -46,9 +47,9 @@ Finally, we would like to express our gratitude to the ***Faculty of Computer an
 
 * [Seif Gamal](https://github.com/seifgamaal) (UI/UX Designer)
 
-* [Adel Mohamed]() (Flutter Developer)
+* [Adel Mohamed](https://github.com/adelmohamed556) (Flutter Developer)
 
-* [Hager Samy]() (Backend Developer)
+* [Hager Samy](https://github.com/Hagersami321) (Backend Developer)
 
 
 
@@ -167,7 +168,8 @@ As shown in the table below, our system uniquely combines personalized training 
 
 
 
- 
+
+ # Flutter
 
 
 
@@ -200,9 +202,9 @@ As shown in the table below, our system uniquely combines personalized training 
 
   * [Seif Gamal](https://github.com/seifgamaal) (UI/UX Designer)
 
-  * [Adel Mohamed]() (Flutter Developer)
+  * [Adel Mohamed](https://github.com/adelmohamed556) (Flutter Developer)
 
-  * [Hager Samy]() (Backend Developer)
+  * [Hager Samy](https://github.com/Hagersami321) (Backend Developer)
   
 - Your support and encouragement were instrumental in the successful completion of this project.
 
