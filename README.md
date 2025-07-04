@@ -180,12 +180,12 @@ As shown in the table below, our system uniquely combines personalized training 
  
   02. `Graduation_All.ipynb`: *Model Benchmarking & Optimization*
 
-       In this notebook, we compare six different ML models using `GridSearchCV` to get the best prameters for each one, `k-fold` to ensuring there's no overfitting, and evalueted those 6 models by **5 metrics** and `confussion matrix` identify the best one. Key highlights:
+       In this notebook, we compare six different ML models using `GridSearchCV` to get the best prameters for each one, `k-fold` to ensuring there's no overfitting, and evalueted these six models by **5 metrics** and `confussion matrix` to identify the best one. Key highlights:
         - Trains multiple models (e.g., Random Forest, SVM, etc.)
         - Optimizes hyperparameters via grid search
         - Evaluates models using accuracy, precision, recall, F1-score and ROC AUC
 
-- **Goal:** Select the best-performing model for real-world deployment.      
+- **Goal:** Select the best performing model for real-world deployment      
 
   03. `Graduation_Main.ipynb`: *Final Training & Export*
 
