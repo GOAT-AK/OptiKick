@@ -45,7 +45,7 @@ for providing us with a conductive learning environment and equipping us with th
 
 * [Amr Khaled](https://github.com/GOAT-AK) (AI Engineer)
 
-* [Sobhy Al-Sayed](https://github.com/sobhysayed) (Backend Developer)
+* [Sobhy El-Sayed](https://github.com/sobhysayed) (Backend Developer)
 
 * [Amr Mohamed](https://github.com/AmrMohamed16) (Business Analyst)
 
@@ -153,7 +153,7 @@ As shown in the table below, our system uniquely combines personalized training 
 - ### Backend Utilities
     - **Postman:** for testing API endpoints
     - **phpMyAdmin:** for MySQL database management
-    - **Pusher:** to ha# ndle real-time events between server and mobile app
+    - **Pusher:** to handle real-time events between server and mobile app
     
 - ### Design & Prototyping
     - **Figma:** UI/UX prototyping and design collaboration
@@ -251,8 +251,155 @@ This design direction ensures that the user interface is not only **aestheticall
 
 # Backend
 
+## 🚀 Features
+
+- **Authentication**: Laravel Sanctum with role-based access
+- **User Management**: Players, Coaches, Doctors, Admins
+- **Performance Tracking**: Player metrics and training programs
+- **Communication**: Real-time messaging and notifications
+- **Health Management**: Assessment requests and medical tracking
+- **AI Integration**: AI-powered training program generation
+
+## 🛠️ Tech Stack
+
+- **Backend**: Laravel 12.x, PHP 8.2+
+- **Database**: MySQL/SQLite
+- **Admin Panel**: Filament 3.x
+- **Real-time**: Pusher
+- **Frontend**: Vite + Tailwind CSS
+- **Deployment**: Railway
 
 
+## 📚 Key API Endpoints
+
+### Authentication
+```http
+POST /api/login
+POST /api/forgot-password
+POST /api/verify-reset-token
+POST /api/reset-password
+```
+
+### Player Routes
+```http
+GET /api/player/dashboard
+GET /api/player/profile
+POST /api/player/assessments/request
+```
+
+### Coach Routes
+```http
+GET /api/coach/list-all-players
+GET /api/coach/players/{player}/metrics
+```
+
+### Doctor Routes
+```http
+GET /api/doctor/assessments
+PUT /api/doctor/players/{player}/program/edit
+```
+
+### Messaging
+```http
+GET /api/conversations
+POST /api/messages/send/{recipient}
+```
+
+### Notifications
+```http
+GET /api/notifications
+POST /api/notifications/{notification_id}/mark-as-read
+```
+
+## 🗄️ Database Schema
+
+Core tables:
+- `users` - User accounts with roles
+- `profiles` - User profile information
+- `player_metrics` - Performance data
+- `training_programs` - AI-generated plans
+- `assessment_requests` - Health assessments
+- `conversations` & `messages` - Messaging system
+- `notifications` - System notifications
+
+## 🧪 Testing
+
+```bash
+# Run tests
+php artisan test
+
+# Run with coverage
+php artisan test --coverage
+```
+
+## 🔧 Useful Commands
+
+```bash
+# Development
+php artisan serve
+npm run dev
+composer run dev
+
+# Production
+php artisan optimize
+php artisan filament:optimize
+npm run build
+
+# Database
+php artisan migrate
+php artisan db:seed
+php artisan migrate:fresh --seed
+
+# Cache
+php artisan optimize:clear
+php artisan config:cache
+php artisan route:cache
+```
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+**Database Connection:**
+```bash
+php artisan config:clear
+php artisan tinker
+DB::connection()->getPdo();
+```
+
+**Railway Deployment:**
+```bash
+railway logs
+railway service restart
+railway variables
+```
+
+**Permissions:**
+```bash
+chmod -R 755 storage bootstrap/cache
+```
+
+## 📁 Project Structure
+
+```
+optikick/
+├── app/
+│   ├── Http/Controllers/API/     # API Controllers
+│   ├── Models/                   # Eloquent Models
+│   ├── Services/                 # Business Logic
+│   └── Events/                   # Event Classes
+├── database/
+│   ├── migrations/               # Database Migrations
+│   └── seeders/                  # Database Seeders
+├── routes/api.php                # API Routes
+├── railway.toml                  # Railway Config
+├── Procfile                      # Railway Procfile
+└── README.md                     # This File
+```
+
+---
+
+**OptiKick** - Empowering sports teams with intelligent performance management.
 
 # AI
 
@@ -344,7 +491,7 @@ This design direction ensures that the user interface is not only **aestheticall
    I. Our Team Members for their collaboration and dedication to achieving project goals.
   > _*Amr Khaled (AI Engineer)*_
 
-  > _*Sobhy Al-Sayed (Backend Developer)*_
+  > _*Sobhy El-Sayed (Backend Developer)*_
 
   > _*Amr Mohamed (Business Analyst)*_
 
