@@ -472,7 +472,96 @@ optikick/
 
  # Flutter
 
+## 📱 About
 
+OptiKick is a sports performance management app that connects **Players**, **Doctors**, and **Coaches** in a unified platform for tracking athletic performance, managing training programs, and professional oversight.
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Flutter 3.5.0+
+- Dart 3.0+
+
+
+## 👥 User Roles
+
+### 🏃‍♂️ Player
+- Performance dashboard & metrics
+- Training programs
+- Assessment requests
+- Chat with coaches/doctors
+
+### 👨‍⚕️ Doctor  
+- Player management
+- Assessment approvals
+- Medical oversight
+- Communication hub
+
+### 🏃‍♂️ Coach
+- Team management
+- Training program creation
+- Performance monitoring
+- Player coordination
+
+## 🏗️ Architecture
+
+- **Clean Architecture** with BLoC pattern
+- **Feature-based** folder structure
+- **Dio** for API calls
+- **SharedPreferences** for local storage
+
+```
+lib/
+├── core/           # Shared utilities, API, routes
+├── features/       # Feature modules (auth, home, profile, etc.)
+└── main.dart       # App entry point
+```
+
+## 📦 Key Dependencies
+
+| Package | Purpose |
+|---------|---------|
+| `flutter_bloc` | State management |
+| `dio` | HTTP client |
+| `shared_preferences` | Local storage |
+| `fl_chart` | Data visualization |
+| `flutter_screenutil` | Responsive design |
+
+## 🔧 Development
+
+### Project Structure
+Each feature follows BLoC pattern:
+```
+feature/
+├── presentation/
+│   ├── cubit/      # Business logic
+│   ├── pages/      # Screens
+│   └── widgets/    # UI components
+└── data/
+    └── models/     # Data models
+```
+
+
+## 📱 Building
+
+```bash
+# Android
+flutter build apk --release
+
+# iOS  
+flutter build ios --release
+
+# Web
+flutter build web --release
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open Pull Request
 
 
 # Future_Work
