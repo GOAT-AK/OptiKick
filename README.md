@@ -84,7 +84,7 @@ Athletes today face numerous challenges that can significantly impact their perf
 
 04. **Fragmented Data Sources:** Athletes and coaches often rely on multiple disconnected tools and wearables, leading to incomplete or inconsistent data analysis.
 
-**05. Increased Risk of Injury or Underperformance:** Without continuous monitoring and smart recommendations, athletes face higher risks of preventable injuries or suboptimal performance.
+05. **Increased Risk of Injury or Underperformance:** Without continuous monitoring and smart recommendations, athletes face higher risks of preventable injuries or suboptimal performance.
 
 06. **Need for Personalized Training:** Most training programs are not tailored to the unique physical responses, recovery rates, and health status of individual athletes.
 
