@@ -76,17 +76,13 @@ This application combines **biometric tracking**, **AI-based injury prediction**
 # Problem
 Athletes today face numerous challenges that can significantly impact their performance, health, and career longevity. Our project addresses the following key problems:
 
-01. **Intense Physical and Mental Demands:** Athletes constantly push their bodies to the limit, which can lead to fatigue, burnout, and decreased performance without proper support and monitoring.
+01. **Gaps in Health Monitoring:** Traditional health assessments are periodic and reactive, missing early signs of serious conditions like cardiac arrhythmias or fatigue-related injuries.
 
-02. **Gaps in Health Monitoring:** Traditional health assessments are periodic and reactive, missing early signs of serious conditions like cardiac arrhythmias or fatigue-related injuries.
+02. **Lack of an Integrated System:** There is no unified platform that combines biometric monitoring and training Programs in a seamless, user-friendly way.
 
-03. **Lack of an Integrated System:** There is no unified platform that combines biometric monitoring, training feedback, and real-time risk detection in a seamless, user-friendly way.
+03. **Increased Risk of Injury or Underperformance:** Without continuous monitoring and AI-supported insights, athletes face higher risks of preventable injuries or suboptimal performance.
 
-04. **Fragmented Data Sources:** Athletes and coaches often rely on multiple disconnected tools and wearables, leading to incomplete or inconsistent data analysis.
-
-05. **Increased Risk of Injury or Underperformance:** Without continuous monitoring and smart recommendations, athletes face higher risks of preventable injuries or suboptimal performance.
-
-06. **Need for Personalized Training:** Most training programs are not tailored to the unique physical responses, recovery rates, and health status of individual athletes.
+04. **Need for Personalized Training:** Most training programs are not tailored to the unique physical responses, recovery rates, and health status of individual athletes.
 
 
 
