@@ -472,15 +472,25 @@ optikick/
 
  # Flutter
 
-## 📱 About
-
 OptiKick is a sports performance management app that connects **Players**, **Doctors**, and **Coaches** in a unified platform for tracking athletic performance, managing training programs, and professional oversight.
 
-## 🚀 Quick Start
 
 ### Prerequisites
-- Flutter 3.5.0+
-- Dart 3.0+
+- Flutter SDK 3.5.0+
+- Dart SDK 3.0+
+- Android Studio or VS Code with Flutter plugin
+- Internet permission in `AndroidManifest.xml`:
+
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+```
+
+#### ▶️ Run the App Locally
+
+```bash
+flutter pub get
+flutter run
+```
 
 
 ## 👥 User Roles
@@ -511,38 +521,43 @@ OptiKick is a sports performance management app that connects **Players**, **Doc
 - **SharedPreferences** for local storage
 
 ```
-lib/
-├── core/           # Shared utilities, API, routes
-├── features/       # Feature modules (auth, home, profile, etc.)
-└── main.dart       # App entry point
+optikick/
+├── android/                   # Native Android config
+├── ios/                       # Native iOS config
+├── web/                       # Web build support
+├── linux/, macos/, windows/   # Desktop platform folders
+├── lib/                       # Main Flutter application
+│   ├── core/                  # Shared logic (API, themes, routes)
+│   ├── features/              # Feature modules (auth, profile, home, etc.)
+│   │   ├── data/              # Models and repositories
+│   │   ├── presentation/      # UI layer (pages, widgets, cubits)
+│   │   │   ├── cubit/         # BLoC state management
+│   │   │   ├── pages/         # Screens and views
+│   │   │   └── widgets/       # Reusable components
+│   └── main.dart              # App entry point
+├── assets/                    # Images, fonts, icons
+├── pubspec.yaml               # Dependencies and asset references
 ```
 
 ## 📦 Key Dependencies
 
-| Package | Purpose |
-|---------|---------|
-| `flutter_bloc` | State management |
-| `dio` | HTTP client |
-| `shared_preferences` | Local storage |
-| `fl_chart` | Data visualization |
-| `flutter_screenutil` | Responsive design |
-
-## 🔧 Development
-
-### Project Structure
-Each feature follows BLoC pattern:
-```
-feature/
-├── presentation/
-│   ├── cubit/      # Business logic
-│   ├── pages/      # Screens
-│   └── widgets/    # UI components
-└── data/
-    └── models/     # Data models
-```
+| Package               | Purpose                            |
+|-----------------------|------------------------------------|
+| `flutter_bloc`        | State management using BLoC pattern |
+| `dio`                 | API handling and HTTP requests      |
+| `shared_preferences`  | Local storage for caching           |
+| `fl_chart`            | Graphs and data visualizations      |
+| `flutter_screenutil`  | Responsive UI for all screen sizes  |
+| `flutter_chat_bubble` | Messaging UI                        |
+| `flutter_svg`         | SVG rendering support               |
+| `pin_code_fields`     | OTP and code input fields           |
+| `awesome_dialog`      | Animated alert dialogs              |
+| `intl`                | Date/time localization & formatting |
 
 
-## 📱 Building
+
+
+## 📱 Building & Development
 
 ```bash
 # Android
