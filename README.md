@@ -28,10 +28,6 @@ our accomplished supervisor, for her extensive guidance, support, and constructi
 
 We are deeply grateful for her unwavering encouragement and expertise, which have been essential in making this project a success.
 
-We also wish to extend our heartfelt thanks To 
-> _*Eng. Mahmoud Abbas*_ 
-
-for his exceptional contribution, insightful feedback, and diligent efforts in providing us with the necessary resources and assistance for our research.
 
 Finally, we would like to express our gratitude to The 
 > _*Faculty of Computer and Information Sciences*_ 
